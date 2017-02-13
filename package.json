@@ -1,0 +1,27 @@
+{
+  "name": "nightlife-app",
+  "version": "1.0.0",
+  "description": "freecodecamp backend project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estermer/nightlife-app.git"
+  },
+  "keywords": [
+    "nightlife"
+  ],
+  "author": "Eric Stermer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estermer/nightlife-app/issues"
+  },
+  "homepage": "https://github.com/estermer/nightlife-app#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  }
+}
