@@ -1,0 +1,9 @@
+<h1>This is the list</h1>
+<ul>
+  {{#each bars as |bar|}}
+    <li>
+      <h5>{{bar.name}}</h5>
+      <img src="{{bar.image_url}}" alt="bar.name">
+    </li>
+  {{/each}}
+</ul>

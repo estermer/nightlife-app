@@ -1,0 +1,7 @@
+body {
+  background-color: blue;
+}
+
+.input[type=text] {
+    width: 50%;
+}
