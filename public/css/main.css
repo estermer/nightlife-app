@@ -1,7 +1,32 @@
 body {
-  background-color: blue;
+  background-color: gray;
+}
+
+h1, p {
+  text-align: center;
+}
+
+li {
+  float: left;
+  list-style: none;
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 12px;
+  background-color: white;
+}
+
+form {
+  text-align: center;
 }
 
 .input[type=text] {
-    width: 50%;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
 }
